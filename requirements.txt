@@ -1,0 +1,35 @@
+# Core
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+# Data & ML
+numpy
+pandas
+scikit-learn
+torch
+transformers
+evaluate
+
+# IR / NLP helpers
+rank_bm25
+sentence-transformers
+
+# ASR
+openai-whisper
+
+# CV (lightweight OCR/logo; upgrade later if needed)
+opencv-python
+pytesseract
+
+# Explainability & viz
+shap
+matplotlib
+
+# Testing & lint
+pytest
+ruff
+
+# FastAPI extras
+httpx

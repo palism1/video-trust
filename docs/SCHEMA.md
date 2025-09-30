@@ -1,0 +1,11 @@
+# Data Schema (MVP)
+- video_id: str
+- title: str
+- channel: str
+- published_at: ISO8601
+- transcript: [{start: float, end: float, text: str, speaker?: str}]
+- predictions:
+  - political_lean: {Left, LeanLeft, Center, LeanRight, Right, Unknown}
+  - reliability_score: float [0,1]
+- claims: [{timecode: float, text: str, entities: [str], quantities: [str]}]
+- evidence: [{claim_idx: int, url: str, stance: {supports, refutes, neutral}, date: ISO8601}]

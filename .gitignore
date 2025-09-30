@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data & models
+/data/
+checkpoints/
+artifacts/
+
+# Env & local
+.env
+*.log
+
+# Notebooks
+.ipynb_checkpoints/

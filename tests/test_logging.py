@@ -1,5 +1,6 @@
 # pytest tests for get_logger
-import logging 
+import logging
+
 from src.common.logging_utils import get_logger
 
 FMT = "%(asctime)s %(levelname)s %(name)s: %(message)s"
@@ -12,7 +13,7 @@ def test_info_log_emitted(caplog):
     with caplog.at_level(logging.INFO, logger="vt.test.info"):
         logger.info("hello world")
 
-    # message made it through 
+    # message made it through
     assert any("hello world" in r.message for r in caplog.records)
 
     # formatter is set to our format

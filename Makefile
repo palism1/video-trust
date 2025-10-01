@@ -21,7 +21,7 @@ serve:
 	python -m uvicorn src.ui.api:app --reload --port 8000
 
 lint:
-	ruff check .
+	ruff check . --fix
 
 test:
 	PYTHONPATH=. pytest -q

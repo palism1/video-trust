@@ -1,6 +1,7 @@
 import logging
 from logging import Logger
 
+
 def get_logger(name: str, level: str = "INFO") -> Logger:
     """
     Create a namespaced logger with sane defaults.

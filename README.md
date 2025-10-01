@@ -11,3 +11,9 @@ make ingest     # downloads raw videos (stub)
 make asr        # runs Whisper to get transcripts
 make train      # trains text-only baseline
 make serve      # starts FastAPI at http://localhost:8000
+
+## Scope (Day 0)
+This project analyzes **facts & source reliability** in video news.
+We do **not** classify political lean.
+Inputs/outputs are defined in `docs/SCHEMA.md`.
+Day 1 will start ETL and ASR.

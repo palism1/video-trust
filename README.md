@@ -1,6 +1,6 @@
 # Video-Trust (MVP)
 
-**Goal:** Classify video news for political lean & reliability; extract claims and check evidence.
+**Goal:** Classify video news for reliability; extract claims and check evidence.
 
 ## Quickstart
 ```bash

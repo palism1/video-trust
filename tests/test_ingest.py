@@ -1,6 +1,8 @@
 # test/test_ingest.py
-import json, pathlib
+import json
+
 from src.etl import ingest
+
 
 def test_ingest_creat_files(tmp_path):
     urls = tmp_path / "urls.txt"

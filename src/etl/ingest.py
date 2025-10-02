@@ -1,5 +1,8 @@
 # src/etl/ingest.py
-import argparse, hashlib, json, pathlib
+import argparse
+import hashlib
+import json
+import pathlib
 from urllib.parse import urlparse
 
 from src.common.logging_utils import get_logger
